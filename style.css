@@ -587,7 +587,60 @@ footer li:last-child:after {
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
-    /* CSS */
-    
+
+    .contact-bar {
+        height: 200px;
+        font-size: 14px;
+    }
+
+    .personal li {
+        margin-left: 50px;
+    }
+
+    .social {
+        padding-top: 10px;
+    }
+
+    .nav-bar {
+        height: 700px;
+    }
+
+    .navigation li {
+        padding: 5px;
+        margin-left: 10px;
+        text-align: center;
+        border: none;
+    }
+
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    h3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        height: 120px;
+    }
+
+    footer .menu {
+        margin-left: 7px;
+        margin-right: 7px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .footer-name {
+        margin-top: -15px;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
 }
