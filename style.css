@@ -643,4 +643,24 @@ footer li:last-child:after {
         margin-left: 5px;
         font-size: 14px;
     }
+
+    input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+    button,
+    textarea {
+        background: #fff;
+        border: none;
+        padding: 2px ;
+        margin: 20px;
+        border-radius: 4px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, .12);
+    }
+
+    textarea {
+        display: flex;
+        width: 235px;
+    }
+
+    button {
+        width: 100px;
+    }
 }
