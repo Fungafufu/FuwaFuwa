@@ -384,10 +384,29 @@ label {
     aside   { order: 3; }
 }
 
+
 @media ( max-width: 600px ) {
     article, aside { order: 2; flex: 100%; }
 }
 
+
+@media only screen and ( min-width: 370px ) and ( max-width: 480px ) {
+    .logo {
+        font-size: 37px;
+    }
+
+    .navigation a {
+        font-size: 30px;
+    }
+
+    .menu-social {
+        margin: 10px;
+    }
+
+    .post-title {
+        font-size: 30px;
+    }
+}
 
 
 @media only screen and ( max-width: 480px ) {
@@ -400,6 +419,7 @@ label {
     }
 }
 
+
 @media only screen and (min-width: 480px) and ( max-width: 800px ) {
     .atom-animation img {
         width: 175px;
@@ -411,6 +431,7 @@ label {
         height: 175px;
     }
 }
+
 
 @media only screen and (min-width: 800px) and ( max-width: 1000px ) {
     .atom-animation img {
